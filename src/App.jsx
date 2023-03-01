@@ -6,6 +6,7 @@ import Greeting from './components/Punto3'
 import SameNumberCounter from './components/Punto4'
 import NumberList from './components/Punto5'
 import ImparesMenores from './components/Punto6'
+import AumentoSalario from './components/Punto7'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <SameNumberCounter/>
       <NumberList/>
       <ImparesMenores/>
+      <AumentoSalario/>
     </div>
     
   )
