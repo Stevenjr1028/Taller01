@@ -11,6 +11,8 @@ import DivisionArreglo from './components/Punto8'
 import Tabla from './components/Punto9'
 import Appl from './components/Punto10'
 import Notas from './components/Punto11'
+import Notas2 from './components/Punto12'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,6 +30,8 @@ function App() {
       <Tabla/>
       <Appl/>
       <Notas/>
+      <Notas2/>
+      
     </div>
     
   )
