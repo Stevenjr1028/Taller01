@@ -4,6 +4,7 @@ import SegundosAHoras from './components/Punto1'
 import CallCostCalculator from './components/Punto2'
 import Greeting from './components/Punto3'
 import SameNumberCounter from './components/Punto4'
+import NumberList from './components/Punto5'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <CallCostCalculator/>
       <Greeting/>
       <SameNumberCounter/>
+      <NumberList/>
     </div>
     
   )

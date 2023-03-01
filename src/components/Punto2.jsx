@@ -30,7 +30,7 @@ const CallCostCalculator = () => {
           type="number"
           value={callDuration}
           onChange={(event) => handleDurationChange(event)}
-          className="block w-full px-4 py-2 border rounded mt-2"
+          className=" block w-full px-4 py-2 border border-gray-700 rounded mt-2"
         />
       </label>
       <button
