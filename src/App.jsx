@@ -9,6 +9,7 @@ import ImparesMenores from './components/Punto6'
 import AumentoSalario from './components/Punto7'
 import DivisionArreglo from './components/Punto8'
 import Tabla from './components/Punto9'
+import Appl from './components/Punto10'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <AumentoSalario/>
       <DivisionArreglo/>
       <Tabla/>
+      <Appl/>
     </div>
     
   )
