@@ -48,7 +48,7 @@ function Appl() {
   }
 
   return (
-    <div className="bg-gray-100 h-screen flex flex-col justify-center items-center">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h1 className="text-4xl font-bold mb-4">Suma de Columnas de Matrices</h1>
       {matriz.length > 0 ? (
         <MatrizTabla matriz={matriz} />

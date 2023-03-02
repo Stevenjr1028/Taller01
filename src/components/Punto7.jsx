@@ -23,7 +23,7 @@ const AumentoSalario = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-2xl font-bold mb-4">Aumento de Salarios en un 8%</h2>
       {[...Array(10)].map((_, index) => (
         <div className="mb-4" key={index}>

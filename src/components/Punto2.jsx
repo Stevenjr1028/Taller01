@@ -22,7 +22,7 @@ const CallCostCalculator = () => {
   };
 
   return (
-    <div className="w-full max-w-sm mx-auto">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-3xl font-bold mb-6">Calculadora de costo de llamada telefónica</h2>
       <label className="block mb-2">
         Duración de la llamada en minutos:

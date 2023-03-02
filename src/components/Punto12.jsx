@@ -30,8 +30,8 @@ const Notas2 = () => {
   };
 
   return (
-    <div>
-      <h2 className="text-2xl font-bold">Calculadora de notas</h2>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
+      <h2 className="text-2xl font-bold">Estado academico de los estudiantes</h2>
       <button onClick={handleAddStudent}>Agregar estudiante</button>
       {students.map((student, index) => (
         <div key={index}>

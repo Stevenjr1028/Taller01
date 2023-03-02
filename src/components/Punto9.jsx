@@ -29,14 +29,14 @@ const Tabla=()=> {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="max-w-auto mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <div className="flex flex-col items-center border rounded-lg p-8">
         <h2 className="text-2xl font-bold mb-4">Generador de tablas</h2>
         <div className="flex flex-col space-y-4 mb-4">
           <label className="text-lg">Número de columnas:</label>
-          <input className="border rounded-md py-2 px-4" type="number" value={numColumnas} onChange={handleNumColumnasChange} />
+          <input className="border border-gray-400 py-2 px-4 rounded-md w-full" type="number" value={numColumnas} onChange={handleNumColumnasChange} />
           <label className="text-lg">Número de filas:</label>
-          <input className="border rounded-md py-2 px-4" type="number" value={numFilas} onChange={handleNumFilasChange} />
+          <input className="border border-gray-400 py-2 px-4 rounded-md w-full" type="number" value={numFilas} onChange={handleNumFilasChange} />
         </div>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={generarTabla}>Generar tabla</button>
         {numFilas && numColumnas ? (

@@ -22,7 +22,7 @@ const DivisionArreglo = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-2xl font-bold mb-4">Arreglo de números aleatorios:</h2>
       <p className="mb-4">{numeros.join(", ")}</p>
       <label htmlFor="indice" className="block mb-2">

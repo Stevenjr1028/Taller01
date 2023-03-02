@@ -19,7 +19,7 @@ const ImparesMenores = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-2xl font-bold mb-4">Numeros Impares Menores</h2>
       <label className="block mb-2">Ingrese un número:</label>
       <input

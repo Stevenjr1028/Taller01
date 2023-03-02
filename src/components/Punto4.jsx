@@ -35,7 +35,7 @@ const SameNumberCounter = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-10">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-2xl font-bold mb-5">Numeros Repetidos</h2>
       <div className="flex flex-col space-y-5">
         <label htmlFor="numeros" className="text-lg font-semibold">

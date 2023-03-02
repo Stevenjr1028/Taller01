@@ -29,8 +29,8 @@ const Notas=()=> {
   const isApproved = calculateAverage() === 'Aprobado';
 
   return (
-    <div>
-      <h2 className="text-2xl font-bold">Calculadora de notas</h2>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
+      <h2 className="text-2xl font-bold">Estado Academico de los Estudiantes</h2>
       <form>
         <label htmlFor="name" className="block mt-4">
           Nombre del alumno:

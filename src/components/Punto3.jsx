@@ -24,7 +24,7 @@ const Greeting = () => {
   }
 
   return (
-    <div className="max-w-md mx-auto mt-10 px-6 py-4 bg-white rounded-md shadow-md">
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-md shadow-md">
       <h2 className="text-2xl font-bold mb-2">Saludo</h2>
 
       <div className="mb-4">
